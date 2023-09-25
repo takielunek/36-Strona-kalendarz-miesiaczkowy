@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: 'Poppins', sans-serif;
+	}
+}
+
+.btn {
+	@apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-purple {
+	@apply bg-purple text-white;
+}
+
+.btn-white {
+	@apply bg-white;
+}

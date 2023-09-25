@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/79cf52e935.js" crossorigin="anonymous"></script>
+    <title>Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12 ">
+            <div class="py-1 text-purple font-bold text-3xl "><p>TWÓJ KALENDARZ MIESIĄCZKOWY</p></div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue uppercase text-xs">
+                <li class="cursor-pointer hover:text-purple">O nas</li>
+                <li class="cursor-pointer hover:text-purple">Pakiety</li>
+                <li class="cursor-pointer hover:text-purple">Kontakt</li>
+                <button type="button" class="bg-red text-white rounded-md px-7 py-3 uppercase hover:bg-white hover:text-black">Zaloguj się</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="fas fa-bars text-2xl"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="relative">
+        <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+            <div class="flex flex-1 flex-col items-center lg:items-start">
+                <h2 class="text-blue text-3xl md:text-4 lg:text-5xl  text-center lg:text-left mb-6">Twój kalendarz miesiączkowy</h2>
+                <p class="text-gray text-lg text-center lg:text-left mb-6">Twój kalendarz miesiączkowy jest skierowany do każdego kto, chce na bieżąco sprawdzać, jak funkcjonuje jego organizm i kiedy może spodziewać się następnej menstruacji.</p>
+                <div class="flex justify-center flex-wrap gap-6">
+                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Pobierz na
+                        Android</button>
+                    <button type="button" class=" btn btn-white hover:bg-purple hover:text-white">Pobierz na iOS
+                        </button>
+                </div>
+            </div>
+            <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg brightness-110" src="./img/pexels-img2.jpg" alt="grafika">
+            </div>
+        </div>
+        <div class="hidden md:block overflow-hidden bg-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36
+        ">
+
+        </div>
+    </section>
+
+    <section class="bg-white py-20 mt-20 lg:mt-60">
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-blue">Pakiety</h1>
+            <p class="text-center text-grey mt-4">Wybierzpakiet idealny dla Ciebie i Twoich potrzeb. </p>
+        </div>
+
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg brightness-110"
+                        src="./img/pexels-img1.jpg" alt="">
+                </div>
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue ">Pakiet 1</h1>
+                    <p class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Kontroluj swój organizm kiedy tylko chcesz już za 19,99 zł miesięcznie.</p>
+                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36
+            "></div>
+        </div>
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg brightness-110"
+                        src="./img/pexels-img4.jpg" alt="">
+                </div>
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue ">Pakiet 2</h1>
+                    <p class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Korzystaj z powiadomień o nadchodzącej menstruacji już za 29,99 zł miesięcznie.</p>
+                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overflow-hidden bg-purple rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36
+        "></div>
+        </div>
+      
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg brightness-110"
+                        src="./img/pexels-img3.jpg" alt="">
+                </div>
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue ">Pakiet 3</h1>
+                    <p class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Korzystaj z porad specjalistów już za 59,99 zł miesięcznie.</p>
+                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36
+            "></div>
+        </div>
+
+    </section>
+
+    <section class="py-20 mt-20">
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-blue">Pobierz</h1>
+            <p class="text-center text-grey mt-4">Korzystaj gdzie tylko chcesz </p>
+        </div>
+    
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16  max-w-screen-lg mt-16">
+      
+            <div class="flex flex-col rounded-md shadow-md lg:mb-16">
+                <div class="p-6 flex flex-col items-center">
+                    <i class="text-8xl fa-brands fa-android"></i>
+                    <h3 class="mt-5 mb-2 text-blue text-lg">Pobierz na Android</h3>
+                    <p class="mb-2 text-grey font-light">Wersja na telefon</p>
+                </div>
+                <hr class="border-b border-white">
+                <div class="flex p-6"> <button type="button"
+                        class="  flex-1 btn btn-purple hover:bg-white hover:text-black">Pobierz</button></div>
+            </div>
+         
+            <div class="flex flex-col rounded-md shadow-md lg:my-8">
+                <div class="p-6 flex flex-col items-center">
+                    <i class="text-8xl fa-brands fa-apple"></i>
+                    <h3 class="mt-5 mb-2 text-blue text-lg">Pobierz na iOS</h3>
+                    <p class="mb-2 text-grey font-light">Wersja na telefon</p>
+                </div>
+                <hr class="border-b border-white">
+                <div class="flex p-6"> <button type="button"
+                        class="  flex-1 btn btn-purple hover:bg-white hover:text-black">Pobierz</button></div>
+            </div>
+ 
+            <div class="flex flex-col rounded-md shadow-md lg:mt-16">
+                <div class="p-6 flex flex-col items-center">
+                    <i class="text-8xl fa-brands fa-windows"></i>
+                    <h3 class="mt-5 mb-2 text-blue text-lg">Pobierz na Windows</h3>
+                    <p class="mb-2 text-grey font-light">Wersja na komputer</p>
+                </div>
+                <hr class="border-b border-white">
+                <div class="flex p-6"> <button type="button"
+                        class="  flex-1 btn btn-purple hover:bg-white hover:text-black">Pobierz</button></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20">
+        <div class="container">
+            <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+                <h1 class="text-3xl text-center text-blue">Najczęściej zadawane pytania</h1>
+                <p class="text-center text-grey mt-4">Wasze pytania, nasze odpowiedzi.</p>
+            </div>
+           
+
+            <div class="flex flex-col sm:w-3/4 lg:w5/12 mt-12 mx-auto">
+
+                <div class="flex items-center border-b py-4 ">
+                    <span class="flex-1">W jakim wieku powinnam pobrać kalendarzyk?</span>
+                    <i class="text-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4 ">
+                    <span class="flex-1">Jak skuteczny jest kalendarzyk?</span>
+                    <i class="text-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4 ">
+                    <span class="flex-1">Czy kalendarzyk pomoże mi zajść w ciążę?</span>
+                    <i class="text-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4 ">
+                    <span class="flex-1">Czy rekomendowany jest przez ginekologów?</span>
+                    <i class="text-purple fas fa-chevron-down"></i>
+                </div>
+                <button type="button"
+                    class="mt-12 flex self-center btn bg-purple text-white hover:bg-white hover:text-black">Więcej informacji</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="bg-purple text-white py-20">
+        <div class="container">
+            <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+                <p class="font-light uppercase text-center mb-8">Mamy już 1000+ użytkowników</p>
+                <h1 class="text-3xl text-center">Wprowadź email, po więcej informacji</h1>
+                <div class="flex flex-col sm:flex-row gap-6 mt-8">
+                    <input type="text" placeholder="Email"
+                        class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black">
+                    <button type="button" class="btn bg-red hover:bg-white hover:text-black">Skontaktuj się z nami !</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-red py-8">
+        <div class="container flex flex-col md:flex-row items-center">
+            <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+                <div class="py-1 text-white font-bold text-xl "><p>TWÓJ KALENDARZ MIESIĄCZKOWY</p></div>
+            </div>
+            <div class="flex gap-10 mt-12 md:mt-0 list-none">
+                <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
+                <li><i class="text-white text-2xl fab fa-instagram"></i></li>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
