@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/79cf52e935.js" crossorigin="anonymous"></script>
+    <title>Kalendarzyk miesiączkowy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12 ">
+            <div class="py-1 text-purple font-bold text-3xl ">
+                <p>TWÓJ KALENDARZ MIESIĄCZKOWY</p>
+            </div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue uppercase text-xs">
+                <li class="cursor-pointer hover:text-purple"><a href="index.html">Home</a></li>
+                
+                <li class="cursor-pointer hover:text-purple"><a href="#contact">Kontakt</a></li>
+                <button type="button"
+                    class="bg-red text-white rounded-md px-7 py-3 uppercase hover:bg-white hover:text-black">Zaloguj
+                    się</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="fas fa-bars text-2xl"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section class="bg-white py-20 mt-20 mb-60">
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-blue">Pakiet 1</h1>
+            <p class="text-center text-grey mt-4">Pakiet idealny dla nastolatki.</p>
+        </div>
+
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg brightness-110"
+                        src="./img/pexels-img1.jpg" alt="">
+                </div>
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue ">19,99 zł</h1>
+                    <div class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                        <ul>
+                            <li><i class="text-purple fa-solid fa-angle-right"></i> Powiadomienia o nadchodzącej menstruacji.</li>
+                            <li><i class="text-purple fa-solid fa-angle-right"></i> Kalendarzyk prowadzony pod okiem ginekologa.</li>
+                           
+
+                        </ul>
+                    </div>
+                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black mt-8">Kupuję</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36
+            "></div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="bg-purple text-white py-20">
+        <div class="container">
+            <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+                <h1 class="text-3xl text-center">Nie wiesz który pakiet jest dla Ciebie?</h1>
+                <h2 class="text-2xl text-center mt-4">Napisz do nas!</h2>
+
+                <div class="flex flex-col gap-6 mt-8">
+
+                    <input type="text" placeholder="Imię"
+                        class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black">
+
+                    <input type="text" placeholder="Email"
+                        class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black">
+
+                    <textarea placeholder="Wiadmość"
+                        class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"></textarea>
+
+
+                    <button type="button" class="self-center btn bg-red hover:bg-white hover:text-black">Wyślij</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-8">
+        <div class="container flex flex-col md:flex-row items-center">
+            <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+                <div class="py-1 text-purple font-bold text-xl "><p>TWÓJ KALENDARZ MIESIĄCZKOWY</p></div>
+            </div>
+            <div class="flex gap-10 mt-12 md:mt-0 list-none">
+                <li><i class="text-purple text-2xl fab fa-facebook-square"></i></li>
+                <li><i class="text-purple text-2xl fab fa-instagram"></i></li>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

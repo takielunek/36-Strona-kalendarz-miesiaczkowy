@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/79cf52e935.js" crossorigin="anonymous"></script>
-    <title>Page</title>
+    <title>Kalendarzyk miesiączkowy</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -17,9 +17,9 @@
         <nav class="container flex items-center py-4 mt-4 sm:mt-12 ">
             <div class="py-1 text-purple font-bold text-3xl "><p>TWÓJ KALENDARZ MIESIĄCZKOWY</p></div>
             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue uppercase text-xs">
-                <li class="cursor-pointer hover:text-purple">O nas</li>
-                <li class="cursor-pointer hover:text-purple">Pakiety</li>
-                <li class="cursor-pointer hover:text-purple">Kontakt</li>
+                <li class="cursor-pointer hover:text-purple"><a href="index.html">Home</a></li>
+               
+                <li class="cursor-pointer hover:text-purple"><a href="#contact">Kontakt</a></li>
                 <button type="button" class="bg-red text-white rounded-md px-7 py-3 uppercase hover:bg-white hover:text-black">Zaloguj się</button>
             </ul>
             <div class="flex sm:hidden flex-1 justify-end">
@@ -53,7 +53,7 @@
     <section class="bg-white py-20 mt-20 lg:mt-60">
         <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
             <h1 class="text-3xl text-center text-blue">Pakiety</h1>
-            <p class="text-center text-grey mt-4">Wybierzpakiet idealny dla Ciebie i Twoich potrzeb. </p>
+            <p class="text-center text-grey mt-4">Wybierz pakiet idealny dla Ciebie i Twoich potrzeb. </p>
         </div>
 
         <div class="relative mt-20 lg:mt-24">
@@ -65,7 +65,7 @@
                 <div class="flex flex-1 flex-col items-center lg:items-start">
                     <h1 class="text-3xl text-blue ">Pakiet 1</h1>
                     <p class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Kontroluj swój organizm kiedy tylko chcesz już za 19,99 zł miesięcznie.</p>
-                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button>
+                    <a href="pakiet1.html"><button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button></a>
                 </div>
             </div>
             <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36
@@ -80,7 +80,7 @@
                 <div class="flex flex-1 flex-col items-center lg:items-start">
                     <h1 class="text-3xl text-blue ">Pakiet 2</h1>
                     <p class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Korzystaj z powiadomień o nadchodzącej menstruacji już za 29,99 zł miesięcznie.</p>
-                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button>
+                   <a href="pakiet2.html"><button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button></a>
                 </div>
             </div>
             <div class="hidden lg:block overflow-hidden bg-purple rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36
@@ -96,7 +96,7 @@
                 <div class="flex flex-1 flex-col items-center lg:items-start">
                     <h1 class="text-3xl text-blue ">Pakiet 3</h1>
                     <p class="text-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Korzystaj z porad specjalistów już za 59,99 zł miesięcznie.</p>
-                    <button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button>
+                    <a href="pakiet3.html"><button type="button" class=" btn btn-purple hover:bg-white hover:text-black">Więcej informacji</button></a>
                 </div>
             </div>
             <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36
@@ -182,7 +182,7 @@
         </div>
     </section>
 
-    <section class="bg-purple text-white py-20">
+    <section id="contact" class="bg-purple text-white py-20">
         <div class="container">
             <div class="sm:w-3/4 lg:w-2/4 mx-auto">
                 <p class="font-light uppercase text-center mb-8">Mamy już 1000+ użytkowników</p>
@@ -196,14 +196,14 @@
         </div>
     </section>
 
-    <footer class="bg-red py-8">
+    <footer class="bg-white py-8">
         <div class="container flex flex-col md:flex-row items-center">
             <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-                <div class="py-1 text-white font-bold text-xl "><p>TWÓJ KALENDARZ MIESIĄCZKOWY</p></div>
+                <div class="py-1 text-purple font-bold text-xl "><p>TWÓJ KALENDARZ MIESIĄCZKOWY</p></div>
             </div>
             <div class="flex gap-10 mt-12 md:mt-0 list-none">
-                <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
-                <li><i class="text-white text-2xl fab fa-instagram"></i></li>
+                <li><i class="text-purple text-2xl fab fa-facebook-square"></i></li>
+                <li><i class="text-purple text-2xl fab fa-instagram"></i></li>
             </div>
         </div>
     </footer>
